@@ -27,6 +27,7 @@ kind: Service
 metadata:
   name: playground-service
 spec:
+  type: LoadBalancer
   ports:
   - protocol: TCP 
     port: 8888
